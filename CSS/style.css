@@ -1,0 +1,106 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+html{
+	background-color:#161616;
+}
+
+body{
+	color:#fff;
+	min-height:600px;
+}
+
+a, a:visited {
+	text-decoration:none;
+	outline:none;
+	color:#54a6de;
+}
+
+a:hover{
+	text-decoration:underline;
+}
+
+p.class:first-letter {font-size: large; color: #000000;}
+
+
+#homeScreen{
+	width:1300px;
+	height:768px;
+	padding: 1px;
+	margin: 0 auto 30px;
+	background:url('../img/1.jpg') no-repeat left bottom;
+}
+
+#contents{
+	width: 332px;
+	height:380px;
+	position: relative;
+	overflow: hidden;
+	margin: 180px auto 0;
+}
+
+#1{
+	height: 70px;
+	margin: 60px auto;
+	width: 332px;
+}
+
+#2{
+	height: 70px;
+	margin: 60px auto;
+	width: 332px;
+}
+
+
+#links{
+	height: 70px;
+	margin: 60px auto;
+	width: 332px;
+}
+
+
+/* The Footer */
+
+footer{
+	background-color: #111111;
+	bottom: 0;
+	box-shadow: 0 -1px 2px #111111;
+	height: 45px;
+	left: 0;
+	position: fixed;
+	width: 100%;
+	/* z-index: can control the layer order of positioned elements with the z-index property */
+	z-index: 100000;
+}
+
+footer h2{
+	color: #FFFFFF;
+	font-size: 14px;
+	font-weight: normal;
+	left: 50%;
+	margin-left: -400px;
+	padding: 13px 0 0;
+	position: absolute;
+	width: 540px;
+}
+
+footer h2 i{
+	font-style:normal;
+	color:#FFFFFF;
+}
+
+footer a.contact-us,a.contact-us:visited{
+	color: #FFFFFF;
+	font-size: 12px;
+	left: 50%;
+	margin: 16px 0 0 110px;
+	position: absolute;
+	text-decoration: none;
+	top: 0;
+}
+
+.class {
+	color: #660000;
+}
